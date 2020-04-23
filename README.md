@@ -9,7 +9,7 @@ Hack-2-Learn will hold short and interesting projects that can be completed in 1
 ### Instructions
 - Finalize 2-3 project ideas and discuss them with us.
 - We will help you to choose one of them.Teams should not exceed 3 people.
-- Submit a 100-word description of the project in a ReadME.MD file.  We will create a repo in ERA’s GitHub.
+- Submit a 100-word description of the project in a ReadME.MD file. Fork this repo and start working.
 - After completion of the project, we will release them by our page.  A proper acknowledgementwill be given.  These projects will directly go to your resumes, so choose the project wisely.
 - A good documentation is a must.
   
