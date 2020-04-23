@@ -20,3 +20,21 @@ Hack-2-Learn will hold short and interesting projects that can be completed in 1
  
  ### Suggested Topics
  Here are some of the suggested topics, but you can come up with your own. Research topics are also welcomed.
+- Cam Scanner like App. 
+- Cartooning an Image 
+- Rotten Fruit and Vegetable Detecter 
+- Multiplayer Painting
+- Speech/ tweet Emotion Recognition
+- Hand Gesture Recognition
+- Autonomous Chrome Dinosaur game 
+- Autonomous Fruit Catcher Game
+- OpenCV Sudoku Solver
+- Automatic highway speed sensor with number plate rec. 
+- Home Automation system with presence recognition and privacy 
+- Drowsiness detection software for traffic police
+- Baby Behavior Analysis and Safety Software.
+- Lane Detection and Traffic Analyzer in a Video 
+- Autonomous Tetris game with hand gesture control
+- Traffic Sign Detection
+- Aerial Traffic Survey System
+- Air  Canvas : This  is  an  interesting  project  in  which  you  can  draw  anything  by  moving  yourhands in the air.  The project will use a camera to detect the fingertip and then we can drawthe shape on the canvas.
