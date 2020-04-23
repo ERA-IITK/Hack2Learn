@@ -16,4 +16,7 @@ Hack-2-Learn will hold short and interesting projects that can be completed in 1
  
 #### Duration: 10 Days
 
- #### Start Date : 
+ #### Start Date :
+ 
+ ### Suggested Topics
+ Here are some of the suggested topics, but you can come up with your own. Research topics are also welcomed.
