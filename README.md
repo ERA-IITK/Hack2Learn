@@ -4,6 +4,6 @@
 
 ![Hack 2 Learn](https://github.com/ERA-IITK/Hack2Learn/blob/master/hack2learn.png) 
   
-## Hack-2-Lean 01
+## Hack-2-Learn 01
 
  #### Start Date : 
