@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color blue
+color bottom_background_color
+color colorAccent
+color colorGrey
+color colorPrimary
+color colorPrimaryDark
+color halfTransparentBackground
+color orange
+color polygonViewCircleBackground
+color polygonViewCircleStrokeColor
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+dimen bottom_bar_padding
+dimen polygonViewCircleWidth
+dimen polygonViewStrokeWidth
+dimen scanPadding
+drawable circle
+drawable ic_align
+drawable ic_camera
+drawable ic_invert_colors
+drawable ic_rotate
+id btnClose
+id btnImageCrop
+id frameLayout
+id holderImageCrop
+id imageView
+id ivInvert
+id ivRebase
+id ivRotate
+id polygonView
+id progressBar
+id rlContainer
+layout activity_image_crop
+string app_name

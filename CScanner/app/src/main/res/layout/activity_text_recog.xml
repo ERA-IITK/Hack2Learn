@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_height="match_parent"
+        tools:context=".text_recog">
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#fff"
+                        app:cardUseCompatPadding="true"
+                        app:cardCornerRadius="3dp"
+                        android:elevation="3dp">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Result"
+                                android:textSize="20sp"
+                                android:textColor="@color/colorPrimary"/>
+                        <EditText
+                                android:id="@+id/resultEt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint=""
+                                android:autoLink="all"
+                                android:padding="5dp"
+                                android:textColor="#000"
+                                android:background="@null"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#fff"
+                        app:cardUseCompatPadding="true"
+                        app:cardCornerRadius="3dp"
+                        android:elevation="3dp">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Image Preview"
+                                android:textSize="20sp"
+                                android:textColor="@color/colorPrimary"/>
+                        <ImageView
+                                android:id="@+id/imageTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxHeight="250dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Speak It!!" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+</RelativeLayout>
