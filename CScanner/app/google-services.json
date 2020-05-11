@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "330738654850",
+    "firebase_url": "https://documentscanner-427f8.firebaseio.com",
+    "project_id": "documentscanner-427f8",
+    "storage_bucket": "documentscanner-427f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330738654850:android:730e7046503a9d59a11e9b",
+        "android_client_info": {
+          "package_name": "com.labters.documentscannerandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330738654850-e9amhf0chp66c9unft9ts2i9k4brqi69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3WahRhfizQMbKAa3Dps-q3HybNww5i-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330738654850-e9amhf0chp66c9unft9ts2i9k4brqi69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

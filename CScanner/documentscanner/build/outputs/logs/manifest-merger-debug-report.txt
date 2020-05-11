@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:4:9-46
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:3:9-55
+	android:versionCode
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:1-17:12
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:9:5-16:19
+	android:label
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:11:13-45
+	tools:ignore
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:12:13-52
+	android:allowBackup
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:10:13-39
+activity#com.labters.documentscanner.ImageCropActivity
+ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:13:9-15:76
+	android:theme
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:15:17-73
+	android:name
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:14:17-77
+uses-sdk
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		ADDED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
