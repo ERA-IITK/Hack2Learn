@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.labters.documentscanner"
+5    android:versionCode="5"
+6    android:versionName="1.5.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:9:5-16:19
+16        android:allowBackup="true"
+16-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:10:13-39
+17        android:label="@string/app_name"
+17-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:11:13-45
+18        tools:ignore="GoogleAppIndexingWarning" >
+18-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:12:13-52
+19        <activity
+19-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:13:9-15:76
+20            android:name="com.labters.documentscanner.ImageCropActivity"
+20-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:14:17-77
+21            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+21-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\src\main\AndroidManifest.xml:15:17-73
+22    </application>
+23
+24</manifest>

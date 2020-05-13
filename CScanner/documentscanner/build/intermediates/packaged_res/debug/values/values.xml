@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff59a9ff</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGrey">#cccccc</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="halfTransparentBackground">#aacccccc</color>
+    <color name="orange">#ffff900d</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_bar_padding">15dp</dimen>
+    <dimen name="polygonViewCircleWidth">32dp</dimen>
+    <dimen name="polygonViewStrokeWidth">2dp</dimen>
+    <dimen name="scanPadding">16dp</dimen>
+    <string name="app_name">DocumentScanner</string>
+</resources>

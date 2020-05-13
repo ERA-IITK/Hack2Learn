@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.labters.documentscannerandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:9:22-64
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:11:5-60
+16-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:11:19-57
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-database:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\17829bf559a41be385607ba222aeaa6a\firebase-database-19.3.0\AndroidManifest.xml:25:5-79
+20-->[com.google.firebase:firebase-database:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\17829bf559a41be385607ba222aeaa6a\firebase-database-19.3.0\AndroidManifest.xml:25:22-76
+21
+22    <application
+22-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:13:5-48:19
+23        android:allowBackup="true"
+23-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:14:13-39
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\9a74b62e032cd9fefe2072819f51dc31\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/app"
+26-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:15:13-41
+27        android:label="@string/app_name"
+27-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:16:13-45
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:17:13-58
+29        android:supportsRtl="true"
+29-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:18:13-39
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:19:13-44
+32        <activity
+32-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:21:9-28:20
+33            android:name="com.labters.documentscannerandroid.SplashScreen"
+33-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:21:19-47
+34            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+34-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:22:17-76
+35            <intent-filter>
+35-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:23:13-27:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:24:17-69
+36-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:26:17-77
+38-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:26:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:29:9-30:88
+42            android:name="com.labters.documentscannerandroid.MainMenu"
+42-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:29:19-43
+43            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+43-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:30:17-76
+44        <activity android:name="com.labters.documentscannerandroid.text_recog" />
+44-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:31:9-48
+44-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:31:19-45
+45        <activity android:name="com.labters.documentscannerandroid.ScanCodeActivity" />
+45-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:32:9-54
+45-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:32:19-51
+46        <activity android:name="com.labters.documentscannerandroid.barcode" />
+46-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:33:9-45
+46-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:33:19-42
+47        <activity
+47-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:34:9-35:78
+48            android:name="com.labters.documentscannerandroid.Register"
+48-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:34:19-43
+49            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+49-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:35:17-76
+50        <activity
+50-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:36:9-43:20
+51            android:name="com.labters.documentscannerandroid.login"
+51-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:36:19-40
+52            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+52-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:37:17-76
+53            <intent-filter>
+53-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:38:13-42:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:24:17-69
+54-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:24:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:41:17-76
+56-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:41:27-73
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.labters.documentscannerandroid.MainActivity" />
+59-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:44:9-59
+59-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:44:19-47
+60        <activity
+60-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:45:9-47:51
+61            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+61-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:46:17-80
+62            android:theme="@style/AppTheme" />
+62-->C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\app\src\main\AndroidManifest.xml:47:17-48
+63        <activity
+63-->[:documentscanner] C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-21:72
+64            android:name="com.labters.documentscanner.ImageCropActivity"
+64-->[:documentscanner] C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-73
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->[:documentscanner] C:\Users\This pc\Downloads\AndroidDocumentScanner-master (1)\AndroidDocumentScanner-master\documentscanner\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-69
+66        <activity
+66-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+67            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+67-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+71            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+71-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+73
+74        <service
+74-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+79                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+79-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\0d864a9c3e66398138e365985f26ecd5\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-database:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\17829bf559a41be385607ba222aeaa6a\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+82-->[com.google.firebase:firebase-database:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\17829bf559a41be385607ba222aeaa6a\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-database:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\17829bf559a41be385607ba222aeaa6a\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\2168e701545d9546dd51602bb4565adf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\2168e701545d9546dd51602bb4565adf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\2168e701545d9546dd51602bb4565adf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+87        </service>
+88
+89        <activity
+89-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:23:9-27:75
+90            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+90-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:24:13-93
+91            android:excludeFromRecents="true"
+91-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:25:13-46
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:26:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:27:13-72
+94        <!--
+95            Service handling Google Sign-In user revocation. For apps that do not integrate with
+96            Google Sign-In, this service will never be started.
+97        -->
+98        <service
+98-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:33:9-36:110
+99            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+99-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:34:13-89
+100            android:exported="true"
+100-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:35:13-36
+101            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+101-->[com.google.android.gms:play-services-auth:16.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\a32d75efcdd39ceeb87178ca67844207\jetified-play-services-auth-16.0.0\AndroidManifest.xml:36:13-107
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\1342bf01f691f0e048d079f916c2a1fa\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\1342bf01f691f0e048d079f916c2a1fa\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\1342bf01f691f0e048d079f916c2a1fa\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\1342bf01f691f0e048d079f916c2a1fa\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+110            android:authorities="com.labters.documentscannerandroid.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\d36b25eec56c93b45c711baa7c1fd65f\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\010a1becd325f7bfbe8ef727ec00207a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\010a1becd325f7bfbe8ef727ec00207a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\This pc\.gradle\caches\transforms-2\files-2.1\010a1becd325f7bfbe8ef727ec00207a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+117    </application>
+118
+119</manifest>
